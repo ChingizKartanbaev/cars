@@ -299,6 +299,17 @@ header a{
     margin-top: 45px;
 }
 
+.nuris{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nuris2{
+    margin-top: -30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .footer{
     background: #fff;
     height: 50px;
