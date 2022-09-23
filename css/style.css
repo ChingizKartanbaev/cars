@@ -1,0 +1,305 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url(../img/road.jpg) no-repeat center / cover;
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header a{
+    display: block;
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 19px;
+    margin-right: 40px  ;
+}
+
+.language{
+    display: flex;
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+.language a{
+    margin-right: 10px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex   ;
+}
+
+.language a:hover{
+    color: grey;
+}
+
+.menu a:hover{
+    color: gray;
+    text-decoration: underline #fff;
+}
+
+.word_on_first_page{
+    margin-top: 180px;
+    width: 700px;
+}
+
+.title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.btn{
+    border-radius: 3px;
+    margin-top: 40px;
+    width: 220px;
+    height: 50px;
+    background: red;
+}
+
+.btn__text{
+    padding-top: 15px;
+    margin-left: 70px;
+    color: #fff;
+}
+
+.btn__text2{
+    padding-top: 15px;
+    margin-left: 90px;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #8B0000;
+}
+
+.boxes{
+    margin-top: 240px;
+    display: flex;
+}
+
+.boxes1{
+    margin-top: 100px;
+    display: flex;
+}
+
+.box1{
+    box-shadow: 0 0 5px gray;
+    width: 360px;
+    height: 170px;
+    background: #fff;
+}
+
+.box2{
+    margin-left: 40px;
+}
+
+.box3{
+    box-shadow: 0 0 5px gray;
+    width: 360px;
+    height: 130px;
+    background: #fff;
+}
+
+.box3 .call{
+    padding-top: 20px;
+}
+
+.box4{
+    margin-left: 40px;
+}
+
+.icon{
+    padding-top: 30px;
+    margin-left: 40px;
+    width: 25px;
+}
+
+.call{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.free{
+    margin-top: 5px;
+    margin-left: 40px;
+    color: lightgrey;
+}
+
+.title_our_services{
+    margin-top: 150px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.under_title{
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-left: 5px;
+    font-size: 13px;
+    color: black;
+    text-decoration: underline;
+}
+
+.fotos{
+    display: flex;
+    margin-left: 15px;
+}
+
+.foto{
+    display: flex;
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 25px;
+}
+
+.foto_title{
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.black{
+    margin-top: 100px;
+    background: rgba(20, 18, 18, 0.981);
+    height: 530px
+}
+
+.second_title{
+    font-size: 30px;
+    width: 450px;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.tt{
+    font-size: 20px;
+    margin-top: -40px;
+    width: 450px;
+}
+
+.tt2{
+    margin-top: 45px;
+    margin-left: -2px;
+    color: #fff;
+}
+
+.mechniker{
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.wight{
+    background: #fff;
+    height: 530px
+
+}
+
+.weight_title{
+    font-size: 100px;
+    margin-top: 150px;
+    margin-left: 250px;
+    text-transform: uppercase;
+}
+
+.weight_under_title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 430px;
+}
+
+.dark_black{
+    margin-top: 100px;
+    background: black;
+    height: 700px
+}
+
+.contact_us_title{
+    padding-top: 80px;
+    margin-left: 50px;
+}
+
+.contact_us_title .title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.contact_with_us_title{
+    display: flex;
+    margin-top: 50px;
+}
+
+.contact_with_us_tilte2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.left_title_contact{
+    border: black;
+    background: black;
+    color: #fff;
+    width: 250px;
+}
+
+
+.right_title_contact{
+    border: black;
+    background: black;
+    color: #fff;
+    margin-left: 50px;
+    width: 250px;
+}
+
+.right_hr{
+    margin-left: 50px;
+}
+
+.massege{
+    margin-top: 40px;    
+}
+
+.me{
+    color: #fff;
+}
+
+.qwerty{
+    margin-top: 10px;
+    background: black;
+    color: #fff;
+    width: 550px;
+}
+
+.own {
+    margin-top: 45px;
+}
+
+.footer{
+    background: #fff;
+    height: 50px;
+}
